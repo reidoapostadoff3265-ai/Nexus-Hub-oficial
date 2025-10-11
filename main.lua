@@ -3,7 +3,7 @@ local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao1
 local Window = redzlib:MakeWindow({
     Title = "Cartiu Hub",
     SubTitle = "by Kaique",
-    SaveFolder = "testando Drip Lite"
+    SaveFolder = "testando Cartiu Hub"
   })
 
   Window:AddMinimizeButton({
