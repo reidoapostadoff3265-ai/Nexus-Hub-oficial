@@ -70,7 +70,7 @@ local Paragraph = Tab1:AddParagraph({"Executor", executorName})
 
 local Section = Tab1:AddSection({"versao do Hub 3.7"})
 
-local Paragraph = Tab1:AddParagraph({"Criadores", "Deus "})
+local Paragraph = Tab1:AddParagraph({"Criadores", "Kaique "})
 
 
 
@@ -173,7 +173,7 @@ end
 Tab2:AddTextBox({
     Name = "Nome do Jogador",
     Description = "Digite parte do nome",
-    PlaceholderText = "ex: lo → Deus",
+    PlaceholderText = "ex: lo → Kaique",
     Callback = function(Value)
         local foundPlayer = findPlayerByPartialName(Value)
         if foundPlayer then
